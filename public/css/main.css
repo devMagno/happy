@@ -18,3 +18,17 @@ body, input, button, textarea {
   font-family: 'Nunito', sans-serif; */
   font: 400 1.8rem/1 'Nunito', sans-serif;
 }
+
+.landing-page {
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%) no-repeat;
+  min-height: 100vh;
+  text-align: center;
+
+  display: flex;
+}
+.container {
+  margin: auto;
+}
+.location, h1, .visit p {
+  height: 16vh;
+}
