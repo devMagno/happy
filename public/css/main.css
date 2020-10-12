@@ -7,3 +7,14 @@ body {
   height: 100vh;
   color: white;
 }
+:root {
+  font-size: 62.5%;
+}
+
+body, input, button, textarea {
+  /* font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  font-family: 'Nunito', sans-serif; */
+  font: 400 1.8rem/1 'Nunito', sans-serif;
+}
