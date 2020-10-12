@@ -28,6 +28,7 @@ body, input, button, textarea {
 }
 .container {
   margin: auto;
+  width: 90%;
 }
 .location, h1, .visit p {
   height: 16vh;
