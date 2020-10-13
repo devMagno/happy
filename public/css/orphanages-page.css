@@ -28,3 +28,23 @@ aside footer p {
   margin-top: .8rem;
   
 }
+a.create-orphanage {
+  position: absolute;
+  right: 4rem;
+  bottom: 4rem;
+
+  width: 6.4rem;
+  height: 6.4rem;
+  background: #15C3D6;
+  border: 0;
+  border-radius: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background 0.2s ease-in-out;
+}
+a.create-orphanage:hover {
+  background: #17D6EB;
+}
