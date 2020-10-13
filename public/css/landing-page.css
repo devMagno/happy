@@ -83,4 +83,13 @@ main h1 {
     line-height: 1.5;
     width: clamp(20rem, 20vw, 30rem);
   }
+
+  .visit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .visit-btn {
+    margin: initial;
+  }
 }
