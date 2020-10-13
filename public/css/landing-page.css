@@ -35,7 +35,6 @@ h1,
 .visit-btn:hover {
   background: #96feff;
 }
-
 .logo {
   animation-delay: 50ms;
 }
@@ -54,6 +53,11 @@ main h1 {
 }
 
 @media only screen and (min-width: 760px) {
+  .container {
+    padding: 5rem 2rem;
+    background: url(../images/bg.svg) no-repeat 80% / clamp(30rem, 54vw, 56rem);
+  }
+
   header {
     display: flex;
     justify-content: space-between;
