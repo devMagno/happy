@@ -38,6 +38,7 @@ a.create-orphanage {
   position: absolute;
   right: 4rem;
   bottom: 4rem;
+  z-index: 10;
 
   width: 6.4rem;
   height: 6.4rem;
@@ -88,4 +89,7 @@ a.create-orphanage:hover {
 }
 .leaflet-popup-tip {
   display: none;
+}
+.leaflet-container {
+  z-index: 5;
 }
