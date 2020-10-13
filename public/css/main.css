@@ -7,80 +7,18 @@ body {
   height: 100vh;
   color: white;
 }
+
 :root {
   font-size: 62.5%;
 }
 
-body, input, button, textarea {
+body,
+input,
+button,
+textarea {
   /* font-size: 18px;
   line-height: 1;
   font-weight: 400;
   font-family: 'Nunito', sans-serif; */
-  font: 400 1.8rem/1 'Nunito', sans-serif;
-}
-
-.landing-page {
-  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%) no-repeat;
-  min-height: 100vh;
-  text-align: center;
-
-  display: flex;
-}
-.container {
-  margin: auto;
-  width: 90%;
-}
-.location, h1, .visit p {
-  height: 16vh;
-}
-
-.visit-btn {
-  width: 8rem;
-  height: 8rem;
-  background: #FFD666;
-
-  border: none;
-  border-radius: 3rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  margin: auto;
-  transition: background .3s;
-}
-.visit-btn:hover {
-  background: #96FEFF;
-}
-
-@keyframes up {
-  from {
-    opacity: 0;
-    transform: translateY(16px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-}
-.animate-up {
-  animation-name: up;
-  animation-duration: .3s;
-  animation-fill-mode: backwards;
-}
-
-.logo {
-  animation-delay: 50ms;
-}
-.location {
-  animation-delay: 100ms;
-}
-main h1 {
-  animation-delay: 150ms
-}
-.visit p {
-  animation-delay: 200ms;
-}
-.visit-btn {
-  animation-delay: 250ms;
+  font: 400 1.8rem/1 "Nunito", sans-serif;
 }
