@@ -27,3 +27,17 @@
   animation-name: right;
   animation-duration: 0.3s;
 }
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-appear {
+  animation-name: appear;
+  animation-duration: 0.3;
+  animation-fill-mode: backwards;
+}
