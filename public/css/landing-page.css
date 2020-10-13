@@ -65,6 +65,8 @@ main h1 {
   }
   .location {
     text-align: right;
+    font-size: 2.4rem;
+    line-height: 1.5;
   }
   
   h1 {
@@ -74,5 +76,11 @@ main h1 {
     margin: clamp(10%, 9vh, 12%) 0 4rem;
 
     width: min(300px, 80%);
+  }
+
+  .visit p {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    width: clamp(20rem, 20vw, 30rem);
   }
 }
