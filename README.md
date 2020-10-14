@@ -24,6 +24,8 @@ O projeto ainda está em andamento, volte mais tarde :).
 
 ## 🔧 Como executar o projeto
 
+O projeto ainda está em andamento, volte mais tarde :).
+
 ---
 
 ## 📝 Licença
