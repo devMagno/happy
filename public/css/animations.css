@@ -38,6 +38,6 @@
 }
 .animate-appear {
   animation-name: appear;
-  animation-duration: 0.3;
+  animation-duration: 0.3s;
   animation-fill-mode: backwards;
 }
