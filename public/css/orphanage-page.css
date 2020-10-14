@@ -33,6 +33,7 @@ aside.sidebar footer button:hover {
   background: #17D6EB;
 }
 .with-sidebar {
+  flex: 1;
   padding-left: 110px;
 }
 
