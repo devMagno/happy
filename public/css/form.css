@@ -46,7 +46,7 @@ fieldset + fieldset {
   border-radius: 2rem;
   color: #5C8599;
 }
-.input-block input:focus, .input-block textarea:focus, .input-block button:focus {
+.input-block input:focus, .input-block textarea:focus, .input-block button.add:focus {
   outline: none;
   box-shadow: 0 0 0 2px #289fb4;
   border: none;
@@ -64,7 +64,7 @@ fieldset + fieldset {
   line-height: 2.8rem;
 }
 
-.input-block button {
+.input-block button.add {
   border: 1px dashed #96D2F0;
   width: 100%;
   background: #F5F8FA;
