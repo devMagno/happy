@@ -47,6 +47,9 @@ fieldset + fieldset {
   color: #5C8599;
   transition: box-shadow 0.2s ease-in-out;
 }
+.input-block input:valid, .input-block textarea:valid {
+  box-shadow: 0 0 0 2px #3CDC8C;
+ }
 .input-block input:focus, .input-block textarea:focus, .input-block button.add:focus {
   outline: none;
   box-shadow: 0 0 0 2px #289fb4;
