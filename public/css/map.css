@@ -15,6 +15,7 @@
 .map-container footer a {
   color: #0089A5;
   text-decoration: none;
+  font-weight: 700;
 }
 .map-container footer a:hover {
   text-decoration: underline;
