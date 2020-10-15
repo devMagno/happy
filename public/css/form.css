@@ -45,6 +45,7 @@ fieldset + fieldset {
   border: 1px solid #D3E2E5;
   border-radius: 2rem;
   color: #5C8599;
+  transition: box-shadow 0.2s ease-in-out;
 }
 .input-block input:focus, .input-block textarea:focus, .input-block button.add:focus {
   outline: none;
@@ -64,6 +65,25 @@ fieldset + fieldset {
   line-height: 2.8rem;
 }
 
+.new-upload {
+  position: relative;
+}
+.new-upload span {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  background: white;
+  border: 1px solid #D3E2E5;
+  border-radius: 10px;
+  padding: .6rem;
+  display: flex;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.new-upload span:hover {
+  box-shadow: 0 0 0 2px #FF669D;
+}
+
 .input-block button.add {
   border: 1px dashed #96D2F0;
   width: 100%;
@@ -73,4 +93,5 @@ fieldset + fieldset {
   margin-top: 1.2rem;
   border-radius: 2rem;
   cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
 }
