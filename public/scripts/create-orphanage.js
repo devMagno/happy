@@ -1,0 +1,29 @@
+const options = {
+  dragging: true,
+  touchZoom: true,
+  doubleClickZoom: true,
+  scrollWheelZoom: true,
+  zoomControl: true
+}
+
+let map = L.map('mapid', options).setView([-23.9618, -46.3322], 15)
+
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map)
+
+const icon = L.icon({
+  iconUrl: "./public/images/map-marker.svg",
+  iconSize: [58, 68],
+  iconAnchor: [29, 68],
+  popupAnchor: [170, 2]
+})
+
+let marker
+
+map.on('click', (event) => {
+  const lat = event.latlng.lat;
+  const lng = event.latlng.lng;
+
+  marker && map.removeLayer(marker)
+
+  marker = L.marker([lat, lng], { icon }).addTo(map)
+})
