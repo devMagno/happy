@@ -86,6 +86,9 @@ fieldset + fieldset {
 .new-upload span:hover {
   box-shadow: 0 0 0 2px #FF669D;
 }
+.new-upload + .new-upload {
+  margin-top: 2.4rem;
+}
 
 .input-block button.add {
   border: 1px dashed #96D2F0;
