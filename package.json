@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/devMagno/happy/issues"
   },
-  "homepage": "https://github.com/devMagno/happy#readme"
+  "homepage": "https://github.com/devMagno/happy#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
