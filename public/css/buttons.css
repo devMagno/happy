@@ -41,3 +41,8 @@
   border: 1px solid #A1E9C5;
   color: #37C77F;
 }
+.button-select button + button.active {
+  background-color: #ffeded;
+  border: 1px solid #ffbcaf;
+  color:#ef5350;
+}
