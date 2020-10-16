@@ -30,3 +30,18 @@ map.on('click', (event) => {
 
   marker = L.marker([lat, lng], { icon }).addTo(map)
 })
+
+function addPhotoField() {
+  const container = document.querySelector('#images')
+
+  const fieldsContainer = document.querySelectorAll('.new-upload')
+
+  const newFieldContainer = fieldsContainer[fieldsContainer.length - 1].cloneNode(true)
+
+  const input = newFieldContainer.children[0]
+  if(input.value == '') {
+    return
+  }
+  newFieldContainer.children[0].value = ''
+  container.appendChild(newFieldContainer)
+}
