@@ -29,6 +29,8 @@ module.exports = {
       orphanage.images = orphanage.images.split(",")
       orphanage.firstImage = orphanage.images[0]
 
+      orphanage.open_on_weekends = 0 ? false : true
+
       return res.render('orphanage', { orphanage })
     } catch (error) {
       console.log(error)
