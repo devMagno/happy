@@ -6,6 +6,7 @@ Database.then(async db => {
       lat,
       lng,
       name,
+      about,
       whatsapp,
       images,
       instructions,
@@ -16,6 +17,7 @@ Database.then(async db => {
       "-46.36931061744691",
       "Lar das Meninas",
       "Presta assistência à crianças de 4 a 17 anos que se encontram em situação de risco e/ou vulnerabilidade social.",
+      "13991828585",
       "https://images.unsplash.com/photo-1601950293362-651f3b3cc35f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max",
       "Venha como se sentir a vontade e traga muito amor e paciência para dar.",
       "Das 6h até 18h",
@@ -23,5 +25,10 @@ Database.then(async db => {
     );
   `)
 
+  const selectedOrphanages = await db.all("SELECT * FROM orphanages")
+  console.log(selectedOrphanages)
+
+  const selectedOrphanage = await db.all('SELECT * from ORPHANAGES WHERE id = "2"')
+  console.log(selectedOrphanage)
 
 })
