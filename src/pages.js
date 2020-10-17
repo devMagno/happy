@@ -23,9 +23,13 @@ module.exports = {
 
     try {
       const db = await Database
-      const orphanage = await db.all(`SELECT * FROM orphanages WHERE id = "${id}"`)
+      const results = await db.all(`SELECT * FROM orphanages WHERE id = "${id}"`)
+      const orphanage = results[0]
 
-      return res.render('orphanage', { orphanage: orphanage[0] })
+      orphanage.images = orphanage.images.split(",")
+      orphanage.firstImage = orphanage.images[0]
+
+      return res.render('orphanage', { orphanage })
     } catch (error) {
       console.log(error)
       return res.send('Erro no banco de dados!')
