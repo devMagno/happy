@@ -5,7 +5,7 @@ Database.then(async db => {
   await saveOrphanage(db, {
     lat: '-23.938663322436103',
     lng: '-46.36931061744691',
-    name: 'Orfanato Raio de Sol',
+    name: 'Orfanato Luz Estelar',
     about: 'Presta assistência à crianças de 4 a 17 anos que se encontram em situação de risco e/ou vulnerabilidade social.',
     whatsapp: '13991828585',
     images: [
@@ -23,8 +23,4 @@ Database.then(async db => {
 
   const selectedOrphanages = await db.all("SELECT * FROM orphanages")
   console.log(selectedOrphanages)
-
-  const selectedOrphanage = await db.all('SELECT * from ORPHANAGES WHERE id = "3"')
-  console.log(selectedOrphanage)
-
 })
