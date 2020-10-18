@@ -63,7 +63,7 @@ fieldset + fieldset {
 .input-block textarea {
   box-sizing: border-box;
   height: clamp(12rem, 16rem, 24rem);
-  resize: vertical;
+  resize: none;
   padding: 1.6rem;
   line-height: 2.8rem;
 }
