@@ -41,6 +41,7 @@
 
   opacity: 0.6;
   transition: opacity .2s ease-in-out;
+  margin-bottom: 1.6rem;
 }
 .images button:hover,
 .images button.active {
