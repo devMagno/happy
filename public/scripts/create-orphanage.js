@@ -44,6 +44,7 @@ function addPhotoField() {
   }
   newFieldContainer.children[0].value = ''
   container.appendChild(newFieldContainer)
+  newFieldContainer.children[0].focus()
 }
 
 function deleteField(event) {
