@@ -70,3 +70,10 @@ function toggleSelect(event) {
 
   input.value = button.dataset.value
 }
+
+function validate(event) {
+  if(document.querySelector('[name=lat]').value === '' && document.querySelector('[name=lng]').value === '') {
+    alert('Preencha uma localização no mapa!')
+    event.preventDefault() 
+  }
+}
