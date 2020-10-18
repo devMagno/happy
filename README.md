@@ -28,7 +28,20 @@
 
 ## 🔧 Como executar o projeto
 
-O projeto ainda está em andamento, volte mais tarde :).
+```bash
+# Clone o repositório
+git clone https://github.com/devMagno/happy
+
+# Entre no diretório
+cd happy
+
+# Baixe as dependências
+npm i
+
+# Execute o servidor
+npm start
+```
+Feito isso, abra seu navegador favorito e acesse o endereço `http://127.0.0.1:5500/`
 
 ---
 
