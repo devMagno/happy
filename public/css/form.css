@@ -28,6 +28,9 @@ fieldset + fieldset {
 .input-block + .input-block {
   margin-top: 2.4rem;
 }
+.input-block input::placeholder {
+  color: #6a87b560;
+}
 .input-block label {
   color: #8FA7B3;
   margin-bottom: .8rem;
