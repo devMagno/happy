@@ -30,7 +30,7 @@ module.exports = {
       orphanage.firstImage = orphanage.images[0]
       orphanage.images.splice(0,1)
 
-      orphanage.open_on_weekends = 0 ? false : true
+      orphanage.open_on_weekends = orphanage.open_on_weekends == "0" ? false : true;
 
       return res.render('orphanage', { orphanage })
     } catch (error) {
