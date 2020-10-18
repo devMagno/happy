@@ -12,6 +12,10 @@
 - **HTML5**
 - **CSS3**
 - **JavaScript**
+- **[Node.js](https://nodejs.org/pt-br/)**
+- **[Express](https://expressjs.com/pt-br/)**
+- **[SQLite](https://www.sqlite.org/index.html)**
+- **[Handlebars](https://handlebarsjs.com/)**
 
 ---
 
