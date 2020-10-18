@@ -12,7 +12,7 @@
   padding: 2rem 0;
   text-align: center;
 }
-.map-container footer a {
+.map-container footer a, .map-container footer span {
   color: #0089A5;
   text-decoration: none;
   font-weight: 700;
