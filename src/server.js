@@ -5,6 +5,8 @@ const pages = require('./pages')
 const server = express()
 
 server
+  .use(express.urlencoded({ extended: true }))
+
   .use(express.static('public'))
 
   .set('views', path.join(__dirname, "views"))
