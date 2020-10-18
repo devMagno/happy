@@ -37,8 +37,11 @@
         <img src="{{orphanage.firstImage}}" alt="{{orphanage.name}}">
 
         <div class="images">
+          <button onclick="selectImage(event)" class="active" type="button">
+            <img src="{{orphanage.firstImage}}" alt="{{orphanage.name}}">
+          </button>
           {{#each orphanage.images}}
-            <button onclick="selectImage(event)" class="active" type="button" >
+            <button onclick="selectImage(event)" type="button">
               <img src="{{this}}" alt="{{orphanage.name}}">
             </button>
           {{/each}}
