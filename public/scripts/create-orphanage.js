@@ -39,7 +39,7 @@ function addPhotoField() {
   const newFieldContainer = fieldsContainer[fieldsContainer.length - 1].cloneNode(true)
 
   const input = newFieldContainer.children[0]
-  if(input.value == '') {
+  if(input.value == '' || fieldsContainer.length >= 12){
     return
   }
   newFieldContainer.children[0].value = ''
